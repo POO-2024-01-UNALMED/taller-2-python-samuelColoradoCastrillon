@@ -39,7 +39,7 @@ class Auto:
         cantidad = 0
         for asiento in self.asientos:
             if isinstance(asiento, Asiento):
-                cantidad += 0
+                cantidad += 1
         return cantidad
     
     def verificarIntegridad(self):
